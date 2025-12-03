@@ -1,0 +1,6 @@
+body { font-family: sans-serif; display:flex; justify-content:center; padding:20px; }
+#app { width: 600px; }
+.chat { border:1px solid #ccc; padding:10px; height:400px; overflow-y:auto; margin-bottom:10px; }
+.bubble { padding:8px; margin:5px 0; border-radius:6px; max-width:80%; }
+.bubble.user { background:#e0e0ff; text-align:right; margin-left:auto; }
+.bubble.assistant { background:#f0f0f0; text-align:left; margin-right:auto; }

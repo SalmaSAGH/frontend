@@ -1,0 +1,29 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<title>Ollama Chat Lab</title>
+<link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+<div id="app">
+  <h1>Ollama Chat Lab</h1>
+
+  <div id="chat" class="chat"></div>
+<select id="modelSelect">
+  <option value="llama3.2:1b">llama3.2:1b (rapide)</option>
+  <option value="llama3.2:3b">llama3.2:3b (meilleur)</option>
+  <option value="gemma3">gemma3</option>
+  <option value="mistral">mistral</option>
+  <option value="qwen2">qwen2</option>
+</select>
+
+  <form id="msgForm">
+    <input id="msg" placeholder="Ask..." autocomplete="off" />
+    <button>Send</button>
+  </form>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
